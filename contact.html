@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+    <title>pdfy-Contact</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/custom.css">
+
+
+    
+</head>
+
+<body class="contianer-fluid">
+ <nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container-fluid" id="customNav">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-class="active" data-target="#myNavbar">
+                            <span class="fa fa-th-list icon-ba"></span>
+                            <!--  <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>  -->
+                        </button>
+                        <a href="index.html" class="navbar-brand" id="site-name">pdfy<i class="fa fa-certificate"></i></a>
+                    </div>
+                    <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+                        <ul class="nav navbar-nav" id="navbar">
+                            <li><a href="index.html"><i class="fa fa-home"></i></a></li>
+                            <li><a href="cm.html">Course Materials</a></li>
+                            <li><a href="about.html" id="dd">About</a></li>
+                            <li><a href="privacypolicy.html">Privacy Policy</a></li>
+                            <li><a href="contact.html" class="c-active">Contact</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right" id="navbar">
+                            <li><a href="#"><i class="fa fa-user"></i> Sign Up</a></li>
+                            <li><a href="#"><i class="fa fa-sign-in"></i> Login</a></li>
+                        </ul>
+                    </div>
+                </div>
+ </nav>
+    <section class="row forSmallPhone">
+        <div class="col-sm-4">
+            <h1 class="contactPad col-sm-offset-2" id="title">Contact US</h1>
+            <p class="subTitle contactPad col-sm-offset-2">Got any questions or sugeestions you'd like us to implement?</p>
+            <p class="subTitle contactPad col-sm-offset-2">Send us a message. We promise to look into it and get back to you ASAP!</p>
+
+        </div>
+        <form action="" class="col-sm-8 contactPad upload-page center-block" method="post"  role="form">
+                
+                <div class="form-group col-sm-7 col-sm-offset-2"><input class="form-control" type="text" name="Name" placeholder="Name" ></div>
+                <div class="form-group col-sm-7 col-sm-offset-2"><input class="form-control" type="email" name="email" placeholder="email"></div>
+                <div class="form-group col-sm-7 col-sm-offset-2"><input class="form-control" type="text" name="phone" placeholder="phone Number"></div>
+                <div class="form-group col-sm-7 col-sm-offset-2"><textarea class="form-control"name="Message" rows="10" cols="30"> </textarea></div>
+                <div class="form-group col-sm-7 col-sm-offset-2"> 
+                <button type="button" class="btn btn-primary" style="background:teal;">Send <i class="fa fa-send"></i></button>
+                </div>
+
+            
+        </form>
+            
+
+    </section> 
+    
+    <footer class="row" id="footer"></footer>
+
+
+    <script src="./js/jquery-3.2.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/pdfy.js"></script>
+    <script src="pages.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,313 @@
+/*------------------------------------- Fonts Declaration ------------------------------------ */
+
+@font-face {
+    font-family: lazyS;
+    src: url('../fonts/lazyS.ttf') format('truetype'), url('../fonts/lazyS.eot'), url('../fonts/lazyS.eot?#iefix') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: Cracked-Narrow;
+    src: url('../fonts/Cracked-Narrow.ttf') format('truetype'), url('../fonts/Cracked-Narrow.eot'), /*remember to convert the ttf to eot before upload*/
+    url('../fonts/Cracked-Narrow.eot?#iefix') format('embedded-opentype');
+}
+
+
+/* --------------------------------- Header styles ---------------------------------------------*/
+
+header {
+    background-color: teal;
+}
+
+#site-name {
+    color: #fff;
+    font-family: Cracked-Narrow;
+    font-size: 40px;
+}
+
+.navbar {
+    background: teal;
+    border: 0px solid #fff;
+    box-shadow: 0px 0px 0px transparent;
+    min-height: 70px;
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+
+#navbar li a {
+    color: #fff;
+    font-family: lazyS;
+}
+
+.navbar-toggle {
+    background: teal;
+    border-color: teal;
+}
+
+.navbar-inverse .navbar-toggle {
+    background-color: teal;
+    border-color: teal;
+}
+
+.icon-ba {
+    color: #fff;
+    font-size: 20px;
+}
+
+.navbar-inverse .navbar-toggle:hover {
+    background: teal;
+}
+
+#navbar li a:hover,
+.c-active {
+    border-bottom: 4px solid lightcoral
+}
+
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+    border-color: transparent;
+}
+
+
+/*--------------------------------------------- carousel style -----------------------------------------------*/
+
+.fontA {
+    font-family: Cracked-Narrow;
+    text-align: right;
+}
+
+.fontB {
+    font-family: lazyS;
+    text-align: right;
+    font-size: 50px;
+}
+
+
+/*--------------------------------------------- course materials page -----------------------------------------------*/
+
+.cm-option {
+    font-family: lazyS;
+}
+
+
+/*----------------------------------------- admin styles -------------------------------------------------------*/
+
+.admin-body {
+    height: auto;
+    width: auto;
+}
+
+.admin-sidebar {
+    color: white;
+    background-color: teal;
+}
+
+.admin-site-name {
+    color: #fff;
+    font-family: Cracked-Narrow;
+    font-size: 40px;
+}
+
+.admin-site-name:hover {
+    color: white;
+}
+
+.logo {
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.admin-nav {
+    padding: 10px;
+}
+
+.admin-nav li a {
+    font-family: lazyS;
+    color: white;
+    line-height: 3;
+    padding: 5px 5px;
+}
+
+.admin-nav li a:hover,
+.admin-nav li a.active,
+.admin-nav li a:focus {
+    background-color: teal;
+    border-bottom: 2px solid white;
+    border-radius: 0;
+}
+
+.admin-header {
+    background: transparent;
+    border-bottom: 1px solid teal;
+}
+
+.admin-menu-headers {
+    font-family: lazyS;
+    color: teal;
+    font-weight: bolder;
+}
+
+
+/*------------------------------------ upload page ---------------------------------------------*/
+
+.upload-page {
+    margin-top: 3%;
+}
+
+
+/*------------------------------------ contact page ---------------------------------------------*/
+
+#title {
+    font-family: Cracked-Narrow;
+    color: teal
+}
+
+.subTitle {
+    font-family: lazyS;
+    color: teal
+}
+
+.contactPad {
+    padding: 10px;
+}
+
+
+/*------------------------------------ home page ---------------------------------------------*/
+
+.indexI {
+    font-size: 70px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.indexH {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    padding: 10px;
+    text-align: center;
+}
+
+.indexP {
+    padding: 20px;
+    font-family: lazyS;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+/*------------------------------------ search result page ---------------------------------------------*/
+
+#searchHead {
+    color: teal;
+    font-family: Cracked-Narrow;
+    font-size: 15px;
+}
+
+.resultP {
+    text-decoration: none;
+    color: teal;
+    font-family: lazyS;
+}
+
+
+/*------------------------------------ privacy policy page ---------------------------------------------*/
+
+.legal-body {
+    font-size: 100%;
+    font-family: lazyS;
+}
+
+.legal-container {
+    width: 100%;
+    font-size: 1.15em;
+    padding: 20px 10% 50px;
+}
+
+.legal-header {
+    font-family: Cracked-Narrow;
+    margin-top: 30px;
+}
+
+.legal-details div {
+    margin-top: 20px;
+}
+
+.legal-policy {
+    padding-top: 10px;
+}
+
+.legal-details h4 {
+    font-family: Cracked-Narrow;
+    font-weight: bold;
+    color: teal;
+}
+
+.legal-details div ul {
+    padding: 0;
+    list-style: none;
+    margin: none;
+}
+
+.legal-details div ul li {
+    padding-left: 1em;
+    text-indent: -.7em;
+}
+
+.legal-details div ul li::before {
+    content: "\002022";
+    padding-right: 12px;
+    color: teal;
+    font-size: 25px;
+}
+
+.legal-details a,
+.legal-header h2,
+.legal-policy h3 {
+    color: teal;
+}
+
+
+/*------------------------------------ footer style ---------------------------------------------*/
+
+.f-p {
+    font-family: lazyS;
+    text-align: center;
+}
+
+#footer {
+    padding: 10px;
+    background: teal;
+}
+
+
+/*------------------------------------ media queries ---------------------------------------------*/
+
+@media only screen and (max-width:768px) {
+    .forSmallPhone {
+        margin-top: 70px;
+    }
+    #img-fluidd {
+        height: 350px;
+    }
+    .indexI {
+        font-size: 50px;
+    }
+    .indexH {
+        font-size: 50px;
+    }
+    .indexP {
+        font-size: 17px;
+    }
+    .afterSlide {
+        margin-top: -30px;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    .forSmallPhone {
+        margin-top: 70px;
+    }
+}

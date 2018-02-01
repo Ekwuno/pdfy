@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+    <title>pdfy-Course Materials</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/custom.css">
+</head>
+
+<body class="contianer-fluid">
+     <nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container-fluid" id="customNav">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-class="active" data-target="#myNavbar">
+                            <span class="fa fa-th-list icon-ba"></span>
+                            <!--  <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>  -->
+                        </button>
+                        <a href="index.html" class="navbar-brand" id="site-name">pdfy<i class="fa fa-certificate"></i></a>
+                    </div>
+                    <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+                        <ul class="nav navbar-nav" id="navbar">
+                            <li><a href="index.html"><i class="fa fa-home"></i></a></li>
+                            <li><a href="cm.html" class="c-active">Course Materials</a></li>
+                            <li><a href="about.html" id="dd">About</a></li>
+                            <li><a href="privacypolicy.html">Privacy Policy</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right" id="navbar">
+                            <li><a href="#"><i class="fa fa-user"></i> Sign Up</a></li>
+                            <li><a href="#"><i class="fa fa-sign-in"></i> Login</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+    <section  class="row forSmallPhone" id="course-materials">
+        <form role="form" method="post" action="search.php" class="col-sm-9 upload-page">
+        
+            <div class="form-group col-sm-4">
+                <select class="form-control" id="faculty" name="fac">
+                    <option value="0">-- select faculty --</option>
+                </select>
+            </div>
+        
+            <div class="form-group col-sm-4">
+                <select class="form-control" name="dept" id="dep">
+                    <option value="0">-- select department --</option>
+                </select>
+            </div>
+        
+            <div class="form-group col-sm-4">
+                <select class="form-control" id="sel1" name="level">
+                    <option value="0">-- select level --</option>
+                </select>
+            </div>
+        
+            <div class="form-group col-sm-8" >
+                <button class="btn btn-success" name="download_btn" style="background: teal; border-color:teal;">
+                    <i class="fa fa-check-square-o"></i>&nbsp; Search</button>
+            </div>
+        
+        </form>
+                
+    </section> 
+
+    <footer class="row" id="footer"></footer>
+
+    <script src="./js/jquery-3.2.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/pdfy.js"></script>
+    <script src="pages.js"></script>
+
+</body>
+
+</html>
